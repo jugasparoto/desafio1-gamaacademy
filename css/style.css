@@ -11,27 +11,85 @@ html{
 .section-container{
     height: 100vh;
     width: 100%;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 
-}
-
-.text-form{
-    height: 350px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(63, 4, 56);
 }
 
 .bg-image{
-    background-image: url(../assets/gato-propaganda.jpg);
+    background-image: url(../assets/bf-gatchus.gif);
+    height: 100%;
+    width: 100%;  
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
+
 }
 
-.card-container{
-    background-color: rgb(105, 5, 94);
+.landing-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
+}
+
+.termos{
+    align-items: baseline;
+
+}
+
+#logotipo{
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+    
+
+}
+
+#checkbox{
+    justify-content: flex-end;
+
+}
+
+#botao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+input{
+    width: 100%;
+    margin: 10px 0;
+    border-width: 5px;
+    padding: 10px, 10px;
+    display: flex;
+    text-align: center;
+    border-radius: 50px;
+    background: rgb(197, 15, 136);
+    color: #fff;
+    flex-basis: auto;
+     
+ }
+  
+  form{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+
+
+footer {
+    height: 35px;
+    width: 100%;
+    size: 5%;
+
+   
 }
