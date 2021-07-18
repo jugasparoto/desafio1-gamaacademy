@@ -8,89 +8,91 @@ html{
     scroll-behavior: smooth;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
 .section-container{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 10% 10% 10% 2fr 4fr 1fr;
+    grid-template-rows: 10% 10% 10% 1fr 1fr 5%;
 
 }
 
 .bg-image{
     background-image: url(../assets/bf-gatchus.gif);
-    height: 100%;
-    width: 100%;  
+    height: 80vh; 
     background-attachment: fixed;
     background-size: cover;
 
 }
 
 .landing-text{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-content: flex-end;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    font-family: 'Otomanopee One', sans-serif;
+    
+}
+.cadastre-se{
+    display: grid;
+    grid-column-start: 6;
+    grid-row-start: 3;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgba(201, 201, 201, 0.671);
+    border-radius: 8px;
+    
+    
+}
+
+.formulario{
+    display: grid;
+    grid-column-start: 6;
+    grid-row-start: 4;
+    background-color: rgba(253, 10, 172, 0.548);
+    border-radius: 8px;
+    border: 50px;
+    padding: 10px;
+   font-family: 'Roboto Slab', serif;
     
 }
 
-.termos{
-    align-items: baseline;
-
+.logotipo{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
 }
 
-#logotipo{
-    display:flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    justify-content: flex-end;
-    
-    
-
-}
-
-#checkbox{
-    justify-content: flex-end;
-
-}
-
-#botao{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    
-}
-
-
-
-input{
-    width: 100%;
-    margin: 10px 0;
-    border-width: 5px;
-    padding: 10px, 10px;
-    display: flex;
-    text-align: center;
-    border-radius: 50px;
-    background: rgb(197, 15, 136);
-    color: #fff;
-    flex-basis: auto;
-     
- }
   
-  form{
-    display: flex;
-    flex-direction:column;
-    align-items: flex-end;
-    justify-content: flex-end;
+.form{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 10% 10% 10% 70%;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    
+    
   }
 
-
-
-footer {
-    height: 35px;
-    width: 100%;
-    size: 5%;
-
+.direitos {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 6;
    
+}
+
+.box{
+    background: rgba(197, 15, 136, 0.658);
+    color: rgba(255, 255, 255, 0.801);
+    border-radius: 12px;
+    width: 90%;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#cadastro{
+    height: 30px;
+    width: 90%;
 }
