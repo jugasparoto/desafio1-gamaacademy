@@ -8,8 +8,6 @@ html{
     scroll-behavior: smooth;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
-
 .section-container{
     height: 80vh;
     width: 100%;
@@ -53,6 +51,7 @@ html{
     border: 50px;
     padding: 10px;
    font-family: 'Roboto Slab', serif;
+   color:rgb(255, 255, 255);
     
 }
 
@@ -77,12 +76,13 @@ html{
     display: grid;
     grid-column-start: 1;
     grid-row-start: 6;
+    font-family: 'Roboto Slab', sans seriff;
    
 }
 
 .box{
     background: rgba(197, 15, 136, 0.658);
-    color: rgba(255, 255, 255, 0.801);
+    color: rgb(255, 255, 255);
     border-radius: 12px;
     width: 90%;
     height: 20px;

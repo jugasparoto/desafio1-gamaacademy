@@ -1,0 +1,24 @@
+{
+  "name": "desafio1-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jugasparoto/desafio1-gamaacademy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jugasparoto/desafio1-gamaacademy/issues"
+  },
+  "homepage": "https://github.com/jugasparoto/desafio1-gamaacademy#readme",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "sync": "^0.2.5"
+  }
+}

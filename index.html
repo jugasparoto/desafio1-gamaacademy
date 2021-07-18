@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta lang="pt-br">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="text/javascript" src="js/script.js"></script>
@@ -23,25 +24,17 @@
             <p>Cadastre-se para receber novidades da Black Friday de Inverno da Gatchus!</p>
             </div>
         <div class="formulario">
-            <form>
-                <div class="nome">
+            <form id="armazena">
                 <p>Nome</p>
-                <input type="text" aria-placeholder="insira seu nome aqui" class="box" value="nome">
-                </div>
-                <div>   
+                <input type="text" aria-placeholder="insira seu nome aqui" class="box" id="nome" placeholder="nome"> 
                 <p>Email</p>
-                <input type="text" aria-placeholder="insira seu email aqui" class="box" value="seuemail@email.com">
-                </div> 
-                <div>
+                <input type="text" aria-placeholder="insira seu email aqui" class="box" id="email" placeholder="seuemail@email.com">
                     <ul class="termos">
                         <li type="none">
                             <label><input type="checkbox" class="checkbox" aria-label="botão para concordar com os Termos e Condições de uso da Gatchus"> Li e concordo com os Termos e Condições de Uso.</label>
                         </li>
                     </ul>
-                </div>
-                <div>    
                     <input class="box" id="cadastro" type="submit" value="Cadastrar">
-                </div>
             </form>
         </div>
     <div class="logotipo">
@@ -54,5 +47,5 @@
     </footer>
 
     </body>
-
+<script src="js/script.js"></script>
 </html>

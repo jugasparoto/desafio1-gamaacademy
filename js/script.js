@@ -1,6 +1,6 @@
-/*const form = document.getElementById('form')
+const armazena = document.getElementById('armazena')
 
-form.addEventListener('submit', (e) => {
+armazena.addEventListener('submit', (e) => {
   e.preventDefault();
   let nome = document.getElementById('nome').value;
   let email = document.getElementById('email').value;
@@ -25,4 +25,4 @@ form.addEventListener('submit', (e) => {
     content.innerHTML = pronto
   }, 1000)
 
-}) */
+})
